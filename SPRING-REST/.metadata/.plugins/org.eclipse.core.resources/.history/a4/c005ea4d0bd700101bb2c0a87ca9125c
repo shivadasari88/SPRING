@@ -1,0 +1,7 @@
+package com.shiva;
+
+public class Person {
+	private int pid;
+	private int pname;
+	private int ppoints;
+}

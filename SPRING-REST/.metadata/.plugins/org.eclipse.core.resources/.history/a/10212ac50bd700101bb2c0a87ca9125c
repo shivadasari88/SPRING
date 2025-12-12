@@ -1,0 +1,28 @@
+package com.shiva;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PersonResources {
+	public List<Person> getPersons(){
+		List<Person> persons = new ArrayList<>();
+		
+		Person p1 = new Person();
+		p1.setPid(101);
+		p1.setPname("shiva");
+		p1.setPpoints(40);
+		
+		Person p2 = new Person();
+		p2.setPid(101);
+		p2.setPname("shiva");
+		p2.setPpoints(40);
+		
+		persons.add(p1);
+		persons.add(p2);
+		
+		return persons;
+	}
+}

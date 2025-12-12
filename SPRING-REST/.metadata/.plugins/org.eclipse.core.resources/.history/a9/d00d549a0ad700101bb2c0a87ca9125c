@@ -1,0 +1,16 @@
+package com.shiva;
+
+import java.util.ArrayList;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PersonResource {
+	
+	public List<Person> getPerson(){
+		
+		List<Persons>
+		
+		return persons;
+	}
+}

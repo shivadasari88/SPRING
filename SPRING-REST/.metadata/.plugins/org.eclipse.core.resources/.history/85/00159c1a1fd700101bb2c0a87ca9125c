@@ -1,0 +1,19 @@
+package com.shiva;
+
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class PersonResources {
+	
+	@Autowired
+	PersonRepository repo;
+	
+	@GetMapping("/persons")
+	public Iterable<Person> getPersons(){
+	    return repo.findAll();
+	}
+}

@@ -1,0 +1,4 @@
+spring.application.name=springbootrest-1
+
+
+spring.datasource.url=
