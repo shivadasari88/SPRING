@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dirs>
+    <entry loc="C:\Program Files\Java\jdk-17" stamp="1690997220159"/>
+    <entry loc="C:\Users\HP\AppData\Local\Programs\Eclipse Adoptium\jdk-17.0.7.7-hotspot" stamp="1685357593637"/>
+    <entry loc="C:\Program Files\Java\jre-1.8" stamp="1690989161792"/>
+    <entry loc="C:\Program Files (x86)\Java\jre-1.8" stamp="1690996927526"/>
+    <entry loc="C:\Program Files\Java\jdk-20" stamp="1690988075214"/>
     <entry loc="C:\Users\HP\Downloads\eclipse-jee-2022-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416" stamp="1764437201398"/>
     <entry loc="C:\Users\HP\Downloads\eclipse-jee-2022-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416\jre" stamp="1764437204196"/>
+    <entry loc="C:\Program Files (x86)\Java\jdk-1.8" stamp="1690996928358"/>
+    <entry loc="C:\Program Files\Java\jdk-1.8" stamp="1690989163210"/>
 </dirs>
