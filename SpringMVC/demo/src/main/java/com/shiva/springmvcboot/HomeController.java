@@ -4,6 +4,7 @@ package com.shiva.springmvcboot;
 import java.util.Arrays;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -18,6 +19,10 @@ import com.shiva.springmvcboot.model.Alien;
 
 @Controller
 public class HomeController {
+	
+	@Autowired
+	AlienRepo repo;
+	
 	@ModelAttribute
 	public void modelData(Model m) {
 		m.addAttribute("name", "shiva");
@@ -28,23 +33,26 @@ public class HomeController {
 		return "index";
 	}
 	
-	@RequestMapping("add")
-	public String add(@RequestParam("num1") int i,  @RequestParam("num2") int j,ModelMap m) {
-			
-			int num3 = i+j;
-			m.addAttribute("num3",num3);
-
-		return "result";
-	}
+	
 	
 	@GetMapping("getAliens")
 	public String getAliens(Model m) {
 		
-		List<Alien> aliens = Arrays.asList(new Alien(101,"shiva"), new Alien(102, "rama"));
-		
-		m.addAttribute("result", aliens);
+		m.addAttribute("result", repo.findAll());
 		return "showAliens";
 	}
+	
+	
+	@GetMapping("getAlien")
+	public String getAlien(@RequestParam int aid , Model m) {
+		
+		List<Alien> aliens = Arrays.asList(new Alien(101,"shiva"), new Alien(102, "rama"));
+		
+		m.addAttribute("result",new Alien(aid,"shiva"));
+		return "showAliens";
+	}
+	
+	
 	
 	//@RequestMapping("addAlien")
 	@PostMapping("addAlien")
