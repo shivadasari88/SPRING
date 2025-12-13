@@ -19,6 +19,13 @@
         
         <button type="submit">Add Alien</button>
     </form>
+	<form action="getAlien" method="get">
+	        <label>get Alien by ID:</label>
+	        <input type="number" name="aid" required><br><br>
+	        
+	        
+	        <button type="submit">get Alien</button>
+	    </form>
     
     <hr>
     <a href="getAliens">View All Aliens</a>

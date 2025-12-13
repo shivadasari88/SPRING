@@ -23,11 +23,6 @@ public class HomeController {
 	@Autowired
 	AlienRepo repo;
 	
-	@ModelAttribute
-	public void modelData(Model m) {
-		m.addAttribute("name", "shiva");
-	} 
-	
 	@RequestMapping("/")
 	public String home() {
 		return "index";
@@ -46,9 +41,7 @@ public class HomeController {
 	@GetMapping("getAlien")
 	public String getAlien(@RequestParam int aid , Model m) {
 		
-		List<Alien> aliens = Arrays.asList(new Alien(101,"shiva"), new Alien(102, "rama"));
-		
-		m.addAttribute("result",new Alien(aid,"shiva"));
+		m.addAttribute("result",repo.getOne(aid));
 		return "showAliens";
 	}
 	
@@ -58,6 +51,7 @@ public class HomeController {
 	@PostMapping("addAlien")
 	public String addAlien(@ModelAttribute("a1") Alien a) {
 		
+		repo.save(a);
 		return "result";
 	}
 	

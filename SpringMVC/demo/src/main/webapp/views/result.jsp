@@ -7,7 +7,8 @@
     <title>Welcome</title>
 </head>
 <body>
-    Result is : ${a1}
-	welcome back ${name}
+	<h1>Alien Added Successfully!</h1>
+	    <p>Alien ID: ${a1.aid}</p>
+	    <p>Alien Name: ${a1.aname}</p>
 </body>
 </html>
