@@ -22,10 +22,16 @@
 	<form action="getAlien" method="get">
 	        <label>get Alien by ID:</label>
 	        <input type="number" name="aid" required><br><br>
-	        
-	        
+	       
 	        <button type="submit">get Alien</button>
 	    </form>
+		
+		<form action="getAlienByName" method="get">
+			        <label>get Alien by name:</label>
+			        <input type="text" name="aname" required><br><br>
+			       
+			        <button type="submit">get Alien</button>
+			    </form>
     
     <hr>
     <a href="getAliens">View All Aliens</a>
