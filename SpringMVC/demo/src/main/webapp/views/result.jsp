@@ -8,5 +8,6 @@
 </head>
 <body>
     Result is : ${a1}
+	welcome back ${name}
 </body>
 </html>
