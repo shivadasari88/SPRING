@@ -1751,3 +1751,84 @@ java.lang.InterruptedException
 
 !ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:36:40.500
 !MESSAGE 12:36:40.499 [pool-3-thread-106] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:37:09.905
+!MESSAGE 12:37:09.896 [pool-5-thread-44] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:37:09.905
+!MESSAGE 12:37:09.896 [pool-3-thread-106] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:50.773
+!MESSAGE 12:45:50.739 [pool-5-thread-45] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:50.775
+!MESSAGE 12:45:50.770 [pool-5-thread-45] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Finished parsing CU for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:53.363
+!MESSAGE 12:45:53.362 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:54.560
+!MESSAGE 12:45:54.559 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:54.580
+!MESSAGE 12:45:54.579 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:54.631
+!MESSAGE 12:45:54.581 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:55.080
+!MESSAGE 12:45:55.079 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:55.080
+!MESSAGE 12:45:55.079 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:57.482
+!MESSAGE 12:45:57.481 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:57.988
+!MESSAGE 12:45:57.987 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:45:59.100
+!MESSAGE 12:45:58.949 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change message work done in 0ms
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:00.168
+!MESSAGE 12:45:59.620 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:00.185
+!MESSAGE 12:46:00.184 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: work item submitted for doc file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:00.187
+!MESSAGE 12:46:00.184 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: start work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:01.367
+!MESSAGE 12:46:01.365 [pool-14-thread-1] INFO  o.s.i.v.c.l.u.SimpleTextDocumentService - change arrived: 525
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:01.368
+!MESSAGE 12:46:01.365 [pool-14-thread-1] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Invalidate AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:07.178
+!MESSAGE 12:46:07.177 [Simple-Language-Server main thread] INFO  o.s.i.v.boot.app.SpringSymbolIndex - Update document [file changed]: file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:07.300
+!MESSAGE 12:46:07.298 [pool-6-thread-1] INFO  o.s.i.v.b.j.utils.SpringIndexerJava - Finished scanning affected files [D:\C DAC\Web-based java programming\SPRING\SpringMVC\demo\src\main\java\com\shiva\springmvcboot\AlienController.java]
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-14 12:46:17.933
+!MESSAGE Direct modification of compileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-14 12:46:17.934
+!MESSAGE Direct modification of compileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-14 12:46:17.934
+!MESSAGE Direct modification of testCompileSourceRoots through clear() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-12-14 12:46:17.935
+!MESSAGE Direct modification of testCompileSourceRoots through add() is deprecated and will not work in Maven 4.0.0. Please use the add/remove methods instead. If you're using a plugin that causes this warning, please upgrade to the latest version and report an issue if the warning persists. To disable these warnings, set -Dmaven.project.sourceRoots.warningsDisabled=true on the command line, in the .mvn/maven.config file, or in project POM properties.
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:17.968
+!MESSAGE 12:46:17.968 [Simple-Language-Server main thread] INFO  o.s.i.v.c.l.u.SimpleWorkspaceService - file changed event: [file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/target/classes/application.properties, file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/target/classes/com/shiva/springmvcboot/AlienController.class]
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:18.480
+!MESSAGE 12:46:18.479 [pool-5-thread-45] INFO  o.s.i.v.b.j.u.CompilationUnitCache - Started parsing CU for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-12-14 12:46:18.519
+!MESSAGE 12:46:18.518 [pool-3-thread-108] INFO  o.s.i.v.b.j.u.CompilationUnitCache - CU Cache: end work on AST for file:///D:/C%20DAC/Web-based%20java%20programming/SPRING/SpringMVC/demo/src/main/java/com/shiva/springmvcboot/AlienController.java

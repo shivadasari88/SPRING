@@ -35,7 +35,7 @@ public class AlienController {
 	
 	
 	@PostMapping("alien") 
-    public Alien addAlien( Alien alien) {
+    public Alien addAlien(@RequestBody Alien alien) {
         
         repo.save(alien);
         
