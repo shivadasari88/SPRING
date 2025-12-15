@@ -1,0 +1,5 @@
+package com.exam.OrderService;
+
+public class RestTemplateConfig {
+
+}

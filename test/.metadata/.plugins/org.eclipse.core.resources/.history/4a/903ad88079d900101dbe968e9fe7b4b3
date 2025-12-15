@@ -1,0 +1,53 @@
+package com.exam.OrderService;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class Order {
+
+	@Id
+	private int id;
+	private String CustomerName;
+	private int itemId;
+	private int quantity;
+	
+	public Order() {};
+	
+	public Order(int id, String customerName, int itemId, int quantity) {
+		super();
+		this.id = id;
+		CustomerName = customerName;
+		this.itemId = itemId;
+		this.quantity = quantity;
+	}
+	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getCustomerName() {
+		return CustomerName;
+	}
+	public void setCustomerName(String customerName) {
+		CustomerName = customerName;
+	}
+	public int getItemId() {
+		return itemId;
+	}
+	public void setItemId(int itemId) {
+		this.itemId = itemId;
+	}
+	public int getQuantity() {
+		return quantity;
+	}
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
+	}
+	
+	
+	
+}

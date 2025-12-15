@@ -1,0 +1,62 @@
+package com.exam.OrderService;
+
+import java.util.List;
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/api/orders")
+public class OrderController {
+
+	@Autowired
+	OrderRepository orderRepo;
+	
+	@PostMapping
+	public String createOrder(@RequestBody Order order) {
+		
+		orderRepo.save(order);
+		return "item created successfully";
+		
+		
+	}
+	
+	@GetMapping
+	public List<Order> getOrders(){
+		List<Order> orders = orderRepo.findAll();
+		
+		return orders;
+	}
+	
+	@GetMapping("/{id}")
+    public Order getOrderById(@PathVariable int id) {
+        return orderRepo.getById(id);
+    }
+    
+    
+    @PutMapping("/{id}")
+    public Order updateOrder(@PathVariable int id,@RequestBody Order updatedOrder) {
+    	Order order = getOrderById(id);
+        order.setCustomerName(updatedOrder.getCustomerName());
+        order.setItemId(updatedOrder.getItemId());
+        order.setQuantity(updatedOrder.getQuantity());
+        return orderRepo.save(order);
+    }
+    
+    @DeleteMapping("{id}")
+    public String deleteOrder(@PathVariable int id) {
+    	orderRepo.deleteById(id);
+    	
+    	return "OrderDeleted Successfully";
+    }
+	
+	
+}
